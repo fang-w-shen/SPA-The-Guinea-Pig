@@ -1,5 +1,4 @@
 # SPA-The-Guinea-Pig
-# The Guinea Pig
 
 ## Setup
 
