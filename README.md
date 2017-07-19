@@ -7,11 +7,13 @@ mkdir -p ~/workspace/exercises/spa/event-handlers && cd $_
 touch index.html
 touch events.js
 touch events.css
+
 Requirements
 
 There is sample HTML file content below so create an index.html for it and place the content in the body tag.
 Link in a JavaScript file named events.js.
 Link in a CSS file named events.css. You'll be using element.classList to manipulate the CSS classes on elements.
+
 ✏️ Output target is the output-target element.
 When any section is clicked the output target text should be "You clicked on the {text of the section} section"
 When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
@@ -24,6 +26,8 @@ When you click the "Rounded" button, the guinea-pig element's border should beco
 The first section's text should be bold.
 The last section's text should be bold and italicized.
 Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
+
+
 Boilerplate DOM
 
 <header id="page-header">
@@ -54,4 +58,3 @@ Boilerplate DOM
   <button id="make-large">Hulkify</button>
   <button id="add-border">Capture it</button>
   <button id="add-rounding">Rounded</button>
-  
